@@ -6,6 +6,9 @@ use App\Like;
 use App\Post;
 use App\Tag;
 use Illuminate\Http\Request;
+use Auth ;
+use Gate ;
+
 
 class PostController extends Controller
 {
